@@ -1,0 +1,26 @@
+.navBar {
+  width: 100%;
+  height: 10vh;
+  background: #888;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}
+.navigationBar {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.navigationBar .mainPage a {
+  color: #fff;
+}
+.navLink ul li {
+  display: inline-block;
+}
+.navLink ul li a {
+  padding: 0 10px;
+  color: #fff;
+}
